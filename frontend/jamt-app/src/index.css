@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.login-field {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-title{
+    position: absolute;
+    top: 10px;
+}
+
+.login-title h5{
+    margin:auto;
+}
+
+.login-foot{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.login-foot span {
+    margin: 0 80px;
+    white-space: nowrap;
+}
+
+.login-foot span a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.login-field button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(120, 59%, 53%);
+    color: white;
+}
+
+.login-field button:hover {
+    background-color: hsl(120, 59%, 33%);
+}
+
+/***********************************************
+    Navbar
+************************************************/
+
+.nav-container {
+    border: 1px solid black;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(60, 60, 102);
+    justify-content: center;
+    text-align: center;
+    border-top-right-radius: 5px;
+}
+
+/***********************************************
+    error page
+************************************************/
+
+/* .error-page {
+
+} */
