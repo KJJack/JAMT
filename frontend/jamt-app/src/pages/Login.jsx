@@ -26,6 +26,8 @@ function Login() {
 
             if (response.status === 200) {
                 setMessage({ text: 'Login Successful', color: 'green'});
+                const token = response.data.token;
+                localStorage.setItem('token', token);
                 console.log('Login Successful: ', response.data);
             }
         } catch(error) {

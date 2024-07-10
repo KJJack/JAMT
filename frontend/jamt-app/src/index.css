@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #042630;
 }
 
 .login-container {
@@ -82,17 +83,179 @@ body {
 ************************************************/
 
 .nav-container {
+    display: flex;
     border: 1px solid black;
     height: 100vh;
-    width: 300px;
+    width: 250px;
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: rgb(60, 60, 102);
-    justify-content: center;
+    background-color: #041421;
+    margin-right: 30px;
+    justify-content: flex-end;
     text-align: center;
+    align-items: center;
     border-top-right-radius: 5px;
+    flex-direction: column;
 }
+
+.nav-container h3{
+    color: #d0d6d6;
+}
+
+.user-profile {
+    width: 150px;
+    height: 150px;
+    margin: 0px 100px auto;
+    justify-content: center;
+}
+
+.user-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px auto;
+    width: 150px;
+}
+
+.link {
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.box {
+    height: 60px;
+    width: 60px;
+    margin: 20px auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.box:hover{
+    background-color: hsl(240, 26%, 22%);
+}
+
+
+/***********************************************
+    Application Details
+************************************************/
+
+.application-details-container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #d0d6d6;
+    position: absolute;
+    left: 300px;
+    bottom: 500px;
+    top: 20px;
+    width: 500px;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/***********************************************
+    application card
+************************************************/
+
+/* .appcard-row {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rbga(0, 0, 0, 0.1);
+    background-color: hsl(0, 0%, 83%);
+    white-space: nowrap;
+}
+
+.appcard-row:hover{
+    background-color: hsl(0, 0%, 63%);
+} */
+
+/***********************************************
+    application table
+************************************************/
+.apptable-container{
+    position: fixed;
+    right: 20px;
+    width: 80%;
+    bottom: 50px;
+    height: 62%;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.apptable-container table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+.apptable-container th, .apptable-container td{
+    padding: 8px;
+    /* border: 1px solid #042630; */
+    background-color: #d0d6d6;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+.login-container th{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.apptable-container th{
+    color: #d0d6d6;
+    background-color: #4c7273;
+}
+
+.apptable-container th:hover{
+    background-color: hsl(182, 20%, 27%);
+}
+
+.apptable-container .table-row:nth-child(even) td{
+    background-color: #86b9b0;
+}
+
+.apptable-container .table-row:hover td{
+    background-color: #4c7273;
+}
+
+.apptable-body{
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* .apptable-body table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+} */
+
+.apptable-body td{
+    white-space: nowrap;
+}
+
+.paginate-btns {
+    position: absolute;
+    bottom: 10px;
+}
+
 
 /***********************************************
     error page
