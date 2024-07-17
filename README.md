@@ -21,19 +21,44 @@ Step-by-step instructions on how to get your project running.
 + [Node.js](https://nodejs.org/en) installed on your local machine.
 + npm (Node Package Manager) comes with [Node.js](https://nodejs.org/en)
 + [MongoDB](https://www.mongodb.com/) cluster (local or cloud-based)
++ API Client Testing Tool (Optional)
+    + [Postman](https://www.postman.com/)
+    + [Insomnia](https://insomnia.rest/)
+    + [Thunder Client](https://www.thunderclient.com/) (VScode Extension)
 
 ### Initial Setup
 Clone the repository
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/KJJack/JAMT.git
 ```
 
 ### Backend Setup
 1. Navigate to the backend
     ```bash
-    cd your-project/backend
+    cd JAMT/backend
     ```
+    
 2. Install dependencies
     ```bash
     npm install
+    ```
+    
+3. MongoDB Cluster Setup
+    + If you don't already have a MongoDB Cluster you can create one using [MongoDB](https://www.mongodb.com/products/platform/atlas-database)
+    + Follow along with the instructions on how to setup your cluster and then get your connection string (e.g `mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority`)
+
+
+4. Environment Variables
+    + Create a .env file inside the src directory the file path should be `JAMT/backend/src`
+    + Setup the .env
+        ```env
+        PORT=4723
+        MONGODB=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+        NODE_ENV=development
+        SECRET=`Input any string you would like to be the secret`
+        ```
+        
+5. Run the Backend
+    ```bash
+    npm run dev
     ```
