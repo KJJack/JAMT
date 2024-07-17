@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { UserContext } from '../util/UserContext';
 
 
 function Login() {
 
     const [formData, setFormData] = useState({ username: '', password: ''});
     const [message, setMessage] = useState({ text: '', color: ''});
+    const { user, setUser } = useContext(UserContext);
+    const navigate = useNavigate();
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -29,6 +33,9 @@ function Login() {
                 const token = response.data.token;
                 localStorage.setItem('token', token);
                 console.log('Login Successful: ', response.data);
+                setUser(response.data.user);
+                console.log('User set in context setUser: ', user);
+                navigate('/home');
             }
         } catch(error) {
             setMessage({ text: error.response.data.message, color: 'red'});

@@ -1,6 +1,5 @@
 import placeholder from '../assets/placeholder_profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faGithub } from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faStackOverflow} from '@fortawesome/free-brands-svg-icons';
@@ -10,12 +9,24 @@ import {faCalendarDays} from "@fortawesome/free-solid-svg-icons";
 import {faUserGroup} from "@fortawesome/free-solid-svg-icons";
 import {faGear} from "@fortawesome/free-solid-svg-icons";
 
+import { useContext, useEffect } from 'react';
+import { UserContext } from '../util/UserContext.jsx';
+
 export default function NavbarComponent() {
 
+    const { user } = useContext(UserContext);
+
+
+    useEffect(() => {
+        console.log('User in Navbar has changed:', user);
+    }, [user]);
 
     return(
         <div className="nav-container">
-            <h3>Welcome, John Doe</h3>
+            {console.log('Navbar context for user: ', user)}
+            {user ? 
+            (<h3>{user.firstname + ' ' + user.lastname}</h3>) 
+            : (<h3>John Doe</h3>)}
 
             <div className="user-profile">
                 <img src={placeholder}></img>
@@ -40,17 +51,17 @@ export default function NavbarComponent() {
 
 
             <div className="box">
-                <FontAwesomeIcon className='link-icon' icon={faTable} style={{color: "#d0d6d6", height: "50px", width: "50px"}}/>
+                <FontAwesomeIcon className='box-icon' icon={faTable} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
                 
             </div>
             <div className="box">
-                <FontAwesomeIcon className='link-icon' icon={faCalendarDays} style={{color: "#d0d6d6", height: "50px", width: "50px"}}/>
+                <FontAwesomeIcon className='box-icon' icon={faCalendarDays} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
             </div>
             <div className="box">
-                <FontAwesomeIcon className='link-icon' icon={faUserGroup} style={{color: "#d0d6d6", height: "50px", width: "50px"}}/>
+                <FontAwesomeIcon className='box-icon' icon={faUserGroup} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
             </div>
             <div className="box">
-                <FontAwesomeIcon className='link-icon' icon={faGear} style={{color: "#d0d6d6", height: "50px", width: "50px"}}/>
+                <FontAwesomeIcon className='box-icon' icon={faGear} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
             </div>
             
         </div>

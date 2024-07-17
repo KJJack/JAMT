@@ -5,19 +5,26 @@ import App from './App.jsx'
 import './index.css'
 import Home from './pages/Home.jsx'
 import NotFound from './pages/NotFound.jsx'
+import LoginPage from './pages/LoginPage.jsx'
+import { UserProvider } from './util/UserContext.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <LoginPage/>,
     errorElement: <NotFound/>
   },
-
+  {
+    path: "/home",
+    element: <Home/>,
+    errorElement: <NotFound/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
-    {/* <App/> */}
+    <UserProvider>
+      <RouterProvider router={router}/>
+    </UserProvider>
   </React.StrictMode>,
 )
