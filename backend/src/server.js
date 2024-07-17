@@ -48,5 +48,3 @@ app.use(eHandler);
 app.listen(PORT, () => {
   console.log(`Listening on PORT: ${PORT}`);
 });
-
-// kevinjackson5790@gmail.com // testpass123
