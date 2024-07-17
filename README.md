@@ -62,3 +62,6 @@ git clone https://github.com/KJJack/JAMT.git
     ```bash
     npm run dev
     ```
+
+## Contributing
+This project is currently not accepting any contributions.
