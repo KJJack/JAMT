@@ -5,6 +5,7 @@ import Logo from '../components/Logo.jsx';
 import LogOut from '../components/LogOut.jsx';
 import { useContext } from 'react';
 import { UserContext } from '../util/UserContext.jsx';
+import CreateApp from '../components/CreateApp.jsx';
 
 export default function Home() {
 
@@ -14,6 +15,7 @@ export default function Home() {
     return(
         <>
             <NavbarComponent/>
+            <CreateApp />
             <LogOut/>
             <Logo />
             <Paginate/>

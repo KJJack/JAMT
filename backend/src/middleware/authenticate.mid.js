@@ -19,7 +19,7 @@ export function authenticateUser(req, res, next) {
     const { user_id } = req.params;
 
     if (id !== user_id) {
-      return next(new authError("Access denied. Token mismatch"));
+      return next(new authError(`Access denied. Token mismatch ${id} : ${user_id}`));
     }
 
     logger.info(

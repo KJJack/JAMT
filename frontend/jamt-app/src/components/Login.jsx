@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { UserContext } from '../util/UserContext';
@@ -35,7 +35,7 @@ function Login() {
                 console.log('Login Successful: ', response.data);
                 setUser(response.data.user);
                 console.log('User set in context setUser: ', user);
-                navigate('/home');
+                console.log(token);
             }
         } catch(error) {
             setMessage({ text: error.response.data.message, color: 'red'});
@@ -44,6 +44,14 @@ function Login() {
             setFormData({ username: '', password: ''});
         }
     };
+
+    useEffect(() => {
+
+        if (user) {
+            console.log('User context set to: ', user);
+            navigate('/home');
+        }
+    }, [user, navigate])
 
 
 

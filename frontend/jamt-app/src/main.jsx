@@ -6,6 +6,7 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import NotFound from './pages/NotFound.jsx'
 import LoginPage from './pages/LoginPage.jsx'
+import Calendar from './pages/Calendar.jsx'
 import { UserProvider } from './util/UserContext.jsx'
 
 const router = createBrowserRouter([
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home/>,
+    errorElement: <NotFound/>
+  },
+  {
+    path:"/calendar",
+    element: <Calendar/>,
     errorElement: <NotFound/>
   }
 ]);
