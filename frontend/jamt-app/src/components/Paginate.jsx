@@ -5,34 +5,12 @@ import AppTable from "./AppTable";
 import {getUserApplications} from '../api/api.js'
 
 export default function Paginate() {
-    const { user } = useContext(UserContext);
-    const [data, setData] = useState([]);
+    const { user, applications } = useContext(UserContext);
     const [sortConfiguration, setSortConfiguration] = useState({ key: null, direction: 'ascending'});
     const [currentPage, setCurrentPage] = useState(1);
     const DATA_PAGE_LIMIT = 10;
 
-    useEffect(() => {
-
-        const fetchApplications = async () => {
-            if (user) {
-                const userId = user._id || user.id;
-                console.log(userId);
-                try {
-                    const result = await getUserApplications(userId);
-                    console.log(user);
-                    console.log(result);
-                    setData(result);
-                } catch(error) {
-                    console.error("Paginate fetch error: ", error);
-                }
-            }
-        };
-
-        fetchApplications();
-
-    }, [user]);
-
-    const sortedData = [...data].sort((a, b) => {
+    const sortedData = [...applications].sort((a, b) => {
         if (sortConfiguration.key === null) {
             return 0;
         }
@@ -68,7 +46,7 @@ export default function Paginate() {
     }
 
     const handleNextPage = () => {
-        if (currentPage < Math.ceil(data.length / DATA_PAGE_LIMIT)) {
+        if (currentPage < Math.ceil(applications.length / DATA_PAGE_LIMIT)) {
             setCurrentPage(currentPage + 1);
         }
     }

@@ -227,6 +227,27 @@ body {
     z-index: 1; /* Lower than the container */
 }
 
+.modal-container {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    top: 20%;
+    left: calc(50% - 300px);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.application-information-container {
+}
+
+.app-info-column {
+    float: left;
+    width: 50%;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
 /* #eye {
     color: white;
 }

@@ -4,11 +4,11 @@ import { useState } from 'react';
 import { validateAndFormatURL } from '../util/UtilFunctions';
 import { useContext } from 'react';
 import { UserContext } from '../util/UserContext';
-import { createUserApplication } from '../api/api';
+import { createUserApplication, getUserApplications } from '../api/api';
 
 export default function CreateApp() {
 
-    const { user } = useContext(UserContext);
+    const { user, setApplications } = useContext(UserContext);
     const [visible, setVisible] = useState(false);
     const [step, setStep] = useState(1);
     const [customSource, setCustomSource] = useState('');
@@ -66,8 +66,23 @@ export default function CreateApp() {
             const userId = user._id || user.id
             const response = await createUserApplication(userId, updatedApplication);
             console.log('Application created:', response);
+            const updatedApplications = await getUserApplications(userId);
+            setApplications(updatedApplications);
             toggleVisible();
-            window.location.reload();
+            //window.location.reload();
+            setNewApplication({
+                company: '',
+                companyUrl: '',
+                position: '',
+                location: '',
+                description: '',
+                appSource: '',
+                salary: 0,
+                hourly: 0,
+                custSource: '',
+                confidence: 0,
+                prereqs: []
+            });
         } catch(error) {
             console.log('Error creating application: ', error);
         }

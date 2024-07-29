@@ -1629,3 +1629,1439 @@ Authorization Error: jwt expired
 2024-07-24T16:13:35.169Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
 2024-07-24T16:13:35.259Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
 2024-07-24T16:13:35.363Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:38:08.817Z Connection to database established
+2024-07-24T16:38:17.007Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:38:17.045Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:38:17.078Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:38:17.115Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:38:27.617Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-24T16:38:27.675Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:38:27.745Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:45:08.045Z Connection to database established
+2024-07-24T16:45:32.953Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:45:33.028Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:45:33.061Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:45:33.135Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:45:33.208Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:45:51.282Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-24T16:45:51.336Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:45:51.412Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:46:38.054Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-07-24T16:46:38.227Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"Reddit","companyUrl":"https://reddit.com","description":"","appSource":"Indeed","custSource":"","salary":"85000","hourly":0,"position":"Frontend Developer","location":"remote","confidence":5,"prereqs":["React","CSS","HTML","javascript"]}
+2024-07-24T16:46:38.505Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:46:38.522Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:46:38.578Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:46:38.597Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:55:28.764Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:55:28.812Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:55:28.835Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:55:28.887Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:56:20.111Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:56:20.215Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:58:13.973Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:58:14.015Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:58:14.051Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T16:58:14.084Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:58:44.927Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T16:58:44.995Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T19:57:27.706Z Connection to database established
+2024-07-24T19:57:35.305Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T19:57:35.377Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T19:57:35.480Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T19:57:35.493Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T19:57:35.502Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T19:57:40.324Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T19:57:40.357Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T19:57:40.372Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T19:57:40.403Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T19:57:40.424Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T19:57:49.853Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-24T19:57:49.914Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T19:57:49.997Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:24:36.032Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T20:24:36.057Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:24:36.111Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T20:24:36.143Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:26:11.088Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:26:11.183Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:26:30.501Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T20:26:30.520Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:26:30.568Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T20:26:30.597Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:37:24.316Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:37:24.408Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:40:50.827Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:40:50.903Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:40:55.968Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:40:56.046Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:41:01.733Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T20:41:01.835Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T21:33:22.942Z Connection to database established
+2024-07-24T21:33:29.240Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T21:33:29.309Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-24T21:33:29.446Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T21:33:29.459Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-24T21:33:40.713Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-24T21:33:40.766Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T21:33:40.860Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T21:33:44.221Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T21:33:44.306Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T21:33:46.458Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-24T21:33:46.567Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T00:49:00.281Z Connection to database established
+2024-07-25T00:49:20.682Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-25T00:49:20.774Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T00:49:20.869Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T01:06:13.418Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T01:06:13.481Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T01:06:13.491Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T01:06:13.557Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T01:15:51.863Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T01:15:51.889Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T01:15:51.948Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T01:15:51.982Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:08:17.624Z Connection to database established
+2024-07-25T18:08:40.525Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:08:40.595Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:08:40.652Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-25T18:08:40.663Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-25T18:08:40.675Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-25T18:08:49.986Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-25T18:08:50.054Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:08:50.132Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:24:17.579Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:24:17.606Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:24:17.656Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:24:17.687Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:26:23.483Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:26:23.518Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:26:23.558Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:26:23.617Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:48:03.224Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-25T18:48:03.278Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:48:03.362Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:49:42.250Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:49:42.322Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:49:42.333Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:49:42.401Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:49:42.468Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:49:57.297Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-25T18:49:57.375Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:49:57.466Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:06.205Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-07-25T18:51:06.426Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"jamt","companyUrl":"https://google.com","description":"","appSource":"Indeed","custSource":"","salary":0,"hourly":"15.00","position":"Backend Developer","location":"remote","confidence":3,"prereqs":["javascript"]}
+2024-07-25T18:51:06.782Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:06.802Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:06.852Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:06.884Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:25.185Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:25.696Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:25.761Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:25.918Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:30.190Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:30.821Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:30.901Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:31.193Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:39.192Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:39.754Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:39.833Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:39.976Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:42.169Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:42.686Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:42.752Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:42.874Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:53.183Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:53.638Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:53.709Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:51:53.813Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:51:53.885Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:09.178Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:09.670Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:09.736Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:09.926Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:15.220Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:15.682Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:15.753Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:15.829Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:15.901Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:19.187Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:19.692Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:19.767Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:19.915Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:53.191Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:53.666Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:53.734Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:53.851Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:57.195Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:57.640Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:57.713Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:57.809Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:52:59.186Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:59.620Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:59.691Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:52:59.802Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:03.172Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:03.691Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:03.848Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:04.037Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:04.110Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:07.243Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:07.719Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:07.790Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:07.908Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:17.166Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:17.605Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:17.677Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:17.845Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:20.208Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:20.651Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:20.740Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:20.833Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:22.199Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:22.670Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:22.736Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:22.921Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:24.188Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:24.744Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:24.818Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:24.928Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:25.002Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:34.190Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:34.761Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:34.832Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:34.946Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:36.161Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:36.788Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:36.858Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:36.951Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:37.018Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:53:42.173Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:43.800Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:43.866Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:53:44.001Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:59:37.435Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:59:37.471Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T18:59:37.526Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T18:59:37.552Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:05:43.602Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:05:43.620Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:05:43.671Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:05:43.694Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:06:45.487Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:06:45.522Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:06:45.557Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:06:45.596Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:16:16.277Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:16:16.349Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:16:16.356Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:16:16.419Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:19:22.998Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-25T19:19:23.045Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:19:23.111Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:24:29.137Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:24:29.228Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:26:07.392Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:26:07.438Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:26:07.471Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:26:07.508Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:35:44.113Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:35:44.175Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-25T19:35:44.180Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-25T19:35:44.248Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:46:14.439Z Connection to database established
+2024-07-26T03:46:29.186Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:46:29.253Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:46:29.260Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:46:29.282Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:46:29.311Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:46:41.654Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-26T03:46:41.698Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:46:41.711Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:47:32.590Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-26T03:47:32.640Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:47:32.651Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:48:47.663Z Connection to database established
+2024-07-26T03:49:11.039Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-26T03:49:11.095Z [ERROR] Code:401 OP:true Access denied. No token provided 
+Authorization Error: Access denied. No token provided
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:11:17)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:49:11.104Z [ERROR] Code:401 OP:true Access denied. No token provided 
+Authorization Error: Access denied. No token provided
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:11:17)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T03:49:55.191Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:49:55.677Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:49:55.714Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:49:55.844Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:49:55.871Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:00.278Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:00.518Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:00.545Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:00.595Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:00.633Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:06.180Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:06.429Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:06.457Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:06.545Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:06.568Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:09.523Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:09.541Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:09.598Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:09.619Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:22.213Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:22.615Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:22.650Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:22.705Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:22.734Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:26.167Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:26.572Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:26.608Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:26.744Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:26.780Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:31.182Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:31.585Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:31.615Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:31.672Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:31.734Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:40.329Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:40.362Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:40.407Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:50:40.464Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:49.860Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-26T03:50:49.887Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:50:49.979Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:13.204Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:13.610Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:13.682Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:13.765Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:13.840Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:17.224Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:17.639Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:17.737Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:17.750Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:17.889Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:28.226Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:28.699Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:28.786Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:28.823Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:28.918Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:34.222Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:34.673Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:34.770Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:34.914Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:37.193Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:37.692Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:37.761Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:37.766Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:37.836Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:43.179Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:43.683Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:43.794Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:43.903Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:49.247Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:49.678Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:49.761Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:49.788Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:49.878Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:52:54.181Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:54.624Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:54.698Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:52:54.840Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:56:04.629Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:56:04.654Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:56:04.723Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:56:04.758Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:57:51.199Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T03:57:51.309Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Home depot","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","description":"","location":"McAllen, TX","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-23T23:03:02.830Z"} 
+to:{"company":"HEB","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","location":"McAllen, TX"}
+2024-07-26T03:58:12.253Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:58:12.289Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:58:12.341Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:58:12.360Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:58:43.753Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:58:43.774Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:58:43.824Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:58:43.978Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:58:52.471Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T03:58:52.609Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"HEB","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","description":"","location":"McAllen, TX","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T03:57:51.322Z"} 
+to:{"company":"Home Depot","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","location":"McAllen, TX"}
+2024-07-26T03:59:20.323Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:59:20.998Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:59:21.067Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:59:21.073Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:59:21.186Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:59:40.300Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:59:41.353Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:59:41.450Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T03:59:41.571Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T03:59:50.243Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T03:59:50.421Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Home Depot","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","description":"","location":"McAllen, TX","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T03:58:52.617Z"} 
+to:{"company":"HEB","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","location":"McAllen, TX"}
+2024-07-26T04:00:11.250Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:00:11.710Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:00:11.792Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:00:11.853Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:00:11.951Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:00:32.117Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:00:32.152Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:00:32.233Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:00:32.260Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:00:39.482Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T04:00:39.566Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"HEB","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","description":"","location":"McAllen, TX","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T03:59:50.429Z"} 
+to:{"company":"Home Depot","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","location":"McAllen, TX"}
+2024-07-26T04:04:53.058Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:04:53.100Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:04:53.131Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:04:53.210Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:05:12.030Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T04:05:12.170Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Home Depot","companyUrl":"https://homedepot.com","position":"Jr Software Engineer","description":"","location":"McAllen, TX","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T04:00:39.574Z"} 
+to:{"company":"HEB","companyUrl":"https://heb.com","position":"Jr Software Engineer","location":"Phar, Tx"}
+2024-07-26T04:06:47.182Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:06:47.944Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:06:48.012Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:06:48.134Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:29.199Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:29.737Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:29.813Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:29.905Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:32.196Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:32.693Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:32.772Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:32.835Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:32.907Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:34.281Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:34.471Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:34.540Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:34.624Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:34.697Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:40.164Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:40.455Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:40.521Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:40.584Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:40.664Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:45.165Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:45.712Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:45.777Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:45.822Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:45.890Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:50.200Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:50.489Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:50.554Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:50.618Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:50.686Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:52.157Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:52.531Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:52.601Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:08:52.649Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:08:52.732Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:09:01.818Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:09:01.876Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:09:01.890Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:09:01.953Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:09:20.692Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T04:09:20.757Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"HEB","companyUrl":"https://heb.com","position":"Jr Software Engineer","description":"","location":"Phar, Tx","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T04:05:12.177Z"} 
+to:{"company":"Target","companyUrl":"https://target.com","position":"Jr Software Engineer","location":"Phar, Tx"}
+2024-07-26T04:09:51.128Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:09:51.156Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:09:51.364Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T04:09:51.397Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:10:49.285Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:10:49.351Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:10:52.579Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:10:52.670Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:10:54.519Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:10:54.592Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:13:16.823Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:13:16.917Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:13:21.429Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:13:21.517Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:16:22.496Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:16:22.580Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:16:26.378Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T04:16:26.448Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:28:31.543Z Connection to database established
+2024-07-26T19:28:48.519Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T19:28:48.629Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T19:28:48.647Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T19:28:48.661Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T19:28:48.701Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T19:29:06.861Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-26T19:29:06.901Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:29:06.987Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:44:47.101Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:44:47.173Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:50:09.341Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T19:50:09.414Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T19:50:09.438Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:50:09.514Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:59:31.104Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T19:59:31.177Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T20:00:22.343Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T20:00:22.407Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Target","companyUrl":"https://target.com","position":"Jr Software Engineer","description":"","location":"Phar, Tx","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T04:09:20.764Z"} 
+to:{"company":"Target","companyUrl":"https://target.com","position":"Jr Software Engineer","location":"Phar, Tx"}
+2024-07-26T20:03:52.092Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T20:03:52.185Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T20:05:31.140Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T20:05:31.159Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T20:05:31.204Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T20:05:31.225Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:27:05.889Z Connection to database established
+2024-07-26T21:27:14.508Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:27:14.583Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:27:14.637Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T21:27:14.648Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T21:27:14.656Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-26T21:27:27.133Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-26T21:27:27.181Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:27:27.266Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:34:31.674Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:34:31.713Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:34:31.745Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:34:31.798Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:38:34.809Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:38:34.833Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:38:34.896Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:38:34.926Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:45:43.053Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:45:43.083Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:45:43.125Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:45:43.154Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:46:10.008Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:46:10.077Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:46:10.148Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:46:10.216Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:49:33.589Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-26T21:49:33.657Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Target","companyUrl":"https://target.com","position":"Jr Software Engineer","description":"","location":"Phar, Tx","appSource":"Other","custSource":"Mom","salary":75000,"hourly":0,"confidence":4,"prereqs":["C++","C#","Python"],"contacted":false,"_id":"66a036a69bafd73cf37c2e68","addedAt":"2024-07-23T23:03:02.825Z","createdAt":"2024-07-23T23:03:02.830Z","updatedAt":"2024-07-26T04:09:20.764Z"} 
+to:{"company":"HEB","companyUrl":"https://heb.com","position":"Jr Software Engineer","location":"remote","appSource":"Other","custSource":"levels.fyi","prereqs":"C++,C#"}
+2024-07-26T21:49:59.440Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:49:59.465Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:49:59.502Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:49:59.538Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:56:00.702Z Connection to database established
+2024-07-26T21:58:08.891Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:58:08.938Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:08.980Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-26T21:58:09.030Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:14.443Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:14.517Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:22.015Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:22.090Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:24.223Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-26T21:58:24.298Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-27T01:27:22.542Z Connection to database established
+2024-07-28T01:01:16.724Z [ERROR] Code:404 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at getUserById (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/user.controller.js:38:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T01:01:26.746Z [ERROR] Code:404 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at getUserById (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/user.controller.js:38:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T01:01:27.210Z [ERROR]  OP:false MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ 
+dbError: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/server.js:29:19
+2024-07-28T01:01:37.024Z [ERROR] Code:404 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at getUserById (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/user.controller.js:38:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T01:01:45.927Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T01:01:47.035Z [ERROR] Code:404 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at getUserById (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/user.controller.js:38:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T01:02:08.949Z Connection to database established
+2024-07-28T01:02:18.679Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:02:18.760Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:02:18.781Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T01:02:18.791Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T01:02:18.798Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T01:02:33.356Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T01:02:33.435Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:02:33.513Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:05:40.038Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T01:05:40.095Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:05:40.183Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:25.534Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T01:17:25.617Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:25.693Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:42.691Z Connection to database established
+2024-07-28T01:17:49.738Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:17:49.824Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:17:49.842Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:49.932Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:59.405Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:17:59.480Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:17:59.496Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:59.591Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:17:59.669Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:18:08.068Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T01:18:08.097Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:18:08.173Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:18:13.212Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:18:13.231Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:18:13.301Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:18:13.322Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:18:20.434Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:18:20.446Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:18:20.507Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:18:20.525Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:23:29.640Z Connection to database established
+2024-07-28T01:23:55.477Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T01:23:55.564Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:23:55.696Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:25:23.709Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-07-28T01:25:23.906Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"xyz","companyUrl":"https://google.com","description":"","appSource":"Company","custSource":"","salary":0,"hourly":"65.00","position":"Network Security","location":"Houston, Tx","confidence":1,"prereqs":["idk","security","stuff","i-guess"]}
+2024-07-28T01:25:24.220Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:25:24.236Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:25:24.301Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:25:24.327Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:25:58.663Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-28T01:25:58.734Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Texas Instruments","companyUrl":"https://ti.com","position":"Embedded Systems Engineer","description":"","location":"Houston, Tx","appSource":"Company","custSource":"","salary":125000,"hourly":0,"confidence":4,"prereqs":["Assembly","C","C++"],"contacted":false,"_id":"669f38d7818fe01b1c96d108","addedAt":"2024-07-23T05:00:07.611Z","createdAt":"2024-07-23T05:00:07.632Z","updatedAt":"2024-07-23T05:00:07.632Z"} 
+to:{"company":"Texas Instruments","companyUrl":"https://ti.com","position":"Embedded Systems Engineer","location":"Houston, Tx","appSource":"Company","custSource":"","prereqs":"Assembly,C,C++,Python"}
+2024-07-28T01:26:09.490Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:09.508Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:09.565Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:09.589Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:45.019Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:45.909Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:45.977Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:46.121Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:51.003Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:51.535Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:51.601Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:51.701Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:51.969Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:52.434Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:52.527Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:52.617Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:52.708Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:52.965Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:54.362Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:54.433Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:54.528Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:56.984Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:57.475Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:57.543Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:57.634Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:57.700Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:58.980Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:59.385Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:59.464Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:26:59.556Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:26:59.645Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:02.003Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:02.494Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:02.573Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:02.624Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:02.701Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:06.976Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:07.450Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:07.518Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:07.583Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:10.003Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:10.422Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:10.486Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:10.594Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:10.669Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:13.988Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:14.410Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:14.515Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:14.538Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:14.624Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:18.972Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:19.555Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:19.622Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:19.716Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:27.004Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:27.508Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:27.576Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:27.726Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:45.992Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:46.413Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:46.489Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:46.640Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:49.960Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:50.399Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:50.467Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:50.544Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:50.610Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:51.002Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:51.537Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:51.632Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:51.721Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:51.830Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:52.979Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:53.460Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:53.542Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:27:53.615Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:27:53.683Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:28:13.983Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:28:14.459Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:28:14.524Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T01:28:14.650Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:28:28.401Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T01:28:28.477Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T01:28:28.565Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:50:39.327Z Connection to database established
+2024-07-28T19:50:59.229Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T19:50:59.289Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:50:59.380Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:50:59.461Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:52:40.548Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:52:40.615Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:54:40.349Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T19:54:40.384Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:56:31.400Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T19:56:31.437Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T19:58:30.851Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T19:58:30.891Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:01:37.652Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:01:38.151Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:01:38.247Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:01:38.531Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:01:38.557Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:01:52.057Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T20:01:52.094Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:01:57.782Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:01:57.814Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:01:57.855Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:01:57.892Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:03:06.399Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:03:06.467Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:03:07.140Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:03:07.215Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:03:07.325Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:03:07.347Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:03:10.350Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:03:10.411Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:03:10.965Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:03:11.035Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:03:11.111Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:03:11.139Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:06:12.496Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:06:18.520Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:06:19.067Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:06:19.233Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:06:19.239Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:06:19.278Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:07:07.574Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:07.634Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:07:07.655Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:07.695Z [ERROR] Code:401 OP:true Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined 
+Authorization Error: Access denied. Token mismatch 669ecee6651531e73290aac4 : undefined
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:22:19)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-28T20:07:14.805Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:14.884Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:14.954Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:15.027Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:25.145Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:25.169Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:25.220Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:25.248Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:28.320Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:28.352Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:28.395Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:28.428Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:36.054Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T20:07:36.078Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:42.058Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:42.084Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:42.138Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:42.160Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:53.424Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:53.453Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:07:53.498Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:07:53.533Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:08:43.408Z [200] User: 6657d89c42f03708296756c2 has logged in and received their auth Token
+2024-07-28T20:11:48.253Z Connection to database established
+2024-07-28T20:12:00.959Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T20:12:01.017Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:12:03.777Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:12:03.804Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:12:03.872Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:12:03.909Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:18:02.492Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:18:02.509Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:18:02.575Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:18:02.593Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:18:14.050Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-28T20:18:14.258Z [200] User:669ecee6651531e73290aac4  deleted Application: 669f0f876534d64cd398bc43
+2024-07-28T20:18:15.598Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-28T20:18:15.691Z [ERROR] Code:404 OP:true Application not found 
+Error: Application not found
+    at deleteApplication (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/application.controller.js:147:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T20:18:15.756Z [200] User:669ecee6651531e73290aac4  deleted Application: 669f0f876534d64cd398bc43
+2024-07-28T20:18:16.298Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-28T20:18:16.382Z [ERROR] Code:404 OP:true Application not found 
+Error: Application not found
+    at deleteApplication (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/application.controller.js:147:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-28T20:18:16.444Z [200] User:669ecee6651531e73290aac4  deleted Application: 669f0f876534d64cd398bc43
+2024-07-28T20:18:41.246Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:18:41.265Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:18:41.321Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:18:41.352Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:18:56.985Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:18:57.002Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:18:57.072Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:18:57.107Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:19:04.369Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-28T20:19:04.540Z [200] User:669ecee6651531e73290aac4  deleted Application: 669f069ec76a7ede2b75ce15
+2024-07-28T20:20:01.583Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:20:01.646Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:20:02.278Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:20:02.361Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:20:02.422Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:20:02.493Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:20:08.890Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:20:08.912Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:20:08.955Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:20:08.986Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:20:18.930Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-28T20:20:19.091Z [200] User:669ecee6651531e73290aac4  deleted Application: 66a036a69bafd73cf37c2e68
+2024-07-28T20:20:19.106Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:20:42.438Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-28T20:20:42.586Z [200] User:669ecee6651531e73290aac4  deleted Application: 66a29e9a9e33846a7f268b42
+2024-07-28T20:20:42.602Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:21:04.966Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T20:21:05.002Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:24:09.727Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-28T20:24:09.758Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:24:17.074Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:24:17.095Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:24:17.152Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:24:17.184Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:25:25.569Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-07-28T20:25:25.729Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"yon","companyUrl":"https://google.com","description":"","appSource":"Other","custSource":"levels.fyi","salary":"86000","hourly":0,"position":"Full Stack Developer","location":"remote","confidence":4,"prereqs":["React","Node.js","Express","HTML","CSS","Javascript","Typescript"]}
+2024-07-28T20:25:25.738Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:28:55.195Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:28:55.229Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:28:55.270Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-28T20:28:55.302Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-28T20:29:50.878Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-07-28T20:29:51.044Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"abc","companyUrl":"https://youtube.com","description":"","appSource":"Linkedin","custSource":"","salary":0,"hourly":"44.00","position":"Frontend Developer","location":"Miami, Fl","confidence":3,"prereqs":["React","Angular","CSS","HTML"]}
+2024-07-28T20:29:51.058Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T00:49:33.855Z Connection to database established
+2024-07-29T00:50:00.878Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T00:50:00.922Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T00:51:15.231Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T00:51:15.274Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T00:52:00.518Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T00:52:00.573Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T00:54:16.999Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T00:54:17.039Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T00:55:22.803Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T00:55:22.853Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T00:55:45.186Z [200] User: 6657d89c42f03708296756c2 has logged in and received their auth Token
+2024-07-29T00:55:45.239Z User: 6657d89c42f03708296756c2 kevinjackson5790@gmail.com token verified for: getApplications
+2024-07-29T00:56:05.703Z [ERROR] Code:401 OP:true Invalid username or password 
+Error: Invalid username or password
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:30:9)
+2024-07-29T00:56:25.403Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T00:56:25.437Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:46:54.110Z Connection to database established
+2024-07-29T01:47:06.946Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:47:07.035Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:47:07.049Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:47:07.161Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:47:10.383Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:47:10.421Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:47:10.475Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:47:10.526Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:47:41.254Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T01:47:41.298Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:48:41.053Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-07-29T01:48:41.261Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"CompanyA","companyUrl":"https://google.com","description":"","appSource":"Other","custSource":"Youtube","salary":0,"hourly":"35.00","position":"Data Analyst","location":"remote","confidence":1,"prereqs":["Python"]}
+2024-07-29T01:48:41.274Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:49:07.344Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-29T01:49:07.426Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"CompanyA","companyUrl":"https://google.com","position":"Data Analyst","description":"","location":"remote","appSource":"Other","custSource":"Youtube","salary":0,"hourly":35,"confidence":1,"prereqs":["Python"],"contacted":false,"_id":"66a6f4f9ac737bfaccc80d1a","addedAt":"2024-07-29T01:48:41.153Z","createdAt":"2024-07-29T01:48:41.177Z","updatedAt":"2024-07-29T01:48:41.177Z"} 
+to:{"company":"CompanyA","companyUrl":"https://google.com","position":"Data Analyst","location":"McAllen, Tx","appSource":"Other","custSource":"Youtube","prereqs":["Python"]}
+2024-07-29T01:49:07.547Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:50:50.970Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:50:51.002Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:50:51.047Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:50:51.078Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:50:54.390Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:50:54.414Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T01:50:54.475Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T01:50:54.496Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T19:49:56.874Z Connection to database established
+2024-07-29T20:40:13.728Z Connection to database established
+2024-07-29T20:40:32.800Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T20:40:32.855Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:12:30.869Z Connection to database established
+2024-07-29T21:15:07.599Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T21:15:07.649Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:15:29.787Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-29T21:15:29.883Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst","description":"","location":"Austin, Tx","appSource":"Other","custSource":"levels.fyi","salary":0,"hourly":55,"confidence":5,"prereqs":["Python"],"contacted":false,"_id":"669f0a31c76a7ede2b75cebf","addedAt":"2024-07-23T01:41:05.729Z","createdAt":"2024-07-23T01:41:05.734Z","updatedAt":"2024-07-23T01:41:05.734Z"} 
+to:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","location":"Austin, Tx","appSource":"Other","custSource":"levels.fyi","prereqs":"Python, R"}
+2024-07-29T21:15:30.026Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:17:34.879Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-29T21:17:34.955Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","description":"","location":"remote","appSource":"Indeed","custSource":"","salary":85000,"hourly":0,"confidence":5,"prereqs":["React","CSS","HTML","javascript"],"contacted":false,"_id":"66a12fee24a8e26329b41c07","addedAt":"2024-07-24T16:46:38.129Z","createdAt":"2024-07-24T16:46:38.148Z","updatedAt":"2024-07-24T16:46:38.148Z"} 
+to:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","location":"remote","appSource":"Other","custSource":"levels.fyi","prereqs":["React","CSS","HTML","javascript"]}
+2024-07-29T21:17:35.112Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:22:46.955Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T21:22:46.989Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:22:47.034Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T21:22:47.069Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:23:14.058Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T21:23:14.079Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:23:14.139Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T21:23:14.171Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:25:31.932Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T21:25:31.954Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:25:32.008Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T21:25:32.028Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T21:25:50.351Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-29T21:25:50.422Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","description":"","location":"Austin, Tx","appSource":"Other","custSource":"levels.fyi","salary":0,"hourly":55,"confidence":5,"prereqs":["Python, R"],"contacted":false,"_id":"669f0a31c76a7ede2b75cebf","addedAt":"2024-07-23T01:41:05.729Z","createdAt":"2024-07-23T01:41:05.734Z","updatedAt":"2024-07-29T21:15:29.902Z"} 
+to:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","location":"Austin, Tx","appSource":"Linkedin","custSource":"","prereqs":["Python, R"]}
+2024-07-29T21:25:50.520Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:15:02.660Z Connection to database established
+2024-07-29T22:15:21.845Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:15:21.875Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-29T22:15:21.930Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:15:21.946Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-29T22:16:33.009Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:16:33.036Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-29T22:16:33.073Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:16:33.090Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-29T22:16:57.386Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-29T22:16:57.418Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications

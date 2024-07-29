@@ -6,13 +6,14 @@ import { UserContext } from "../util/UserContext";
 
 export default function LogOut() {
 
-    const { setUser } = useContext(UserContext);
+    const { setUser, setApplications } = useContext(UserContext);
     const navigate = useNavigate();
 
     const handleLogOut= () => {
         console.log("Log out btn clicked");
         localStorage.removeItem('token');
         setUser(null);
+        setApplications([]);
         navigate('/');
     }
 
