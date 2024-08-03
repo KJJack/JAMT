@@ -31,7 +31,7 @@ export const getApplications = async (req, res, next) => {
 export const createApplication = async (req, res, next) => {
   try {
     const { user_id } = req.params;
-    const { company, position, location, prereqs } = req.body;
+    const { company, companyUrl, position, description, appSource, custSource, salary, hourly, location, confidence, prereqs } = req.body;
 
     if (!mongoose.Types.ObjectId.isValid(user_id)) {
       next(
@@ -49,8 +49,15 @@ export const createApplication = async (req, res, next) => {
 
     const newApplication = {
       company,
+      companyUrl,
+      description,
+      appSource,
+      custSource,
+      salary,
+      hourly,
       position,
       location,
+      confidence,
       prereqs,
     };
 

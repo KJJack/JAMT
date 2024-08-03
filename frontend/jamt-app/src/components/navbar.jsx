@@ -11,15 +11,27 @@ import {faGear} from "@fortawesome/free-solid-svg-icons";
 
 import { useContext, useEffect } from 'react';
 import { UserContext } from '../util/UserContext.jsx';
+import { useNavigate } from 'react-router-dom';
 
 export default function NavbarComponent() {
 
     const { user } = useContext(UserContext);
-
+    const navigate = useNavigate();
 
     useEffect(() => {
         console.log('User in Navbar has changed:', user);
     }, [user]);
+
+
+
+    const homeNavigation = () => {
+        navigate('/home');
+    }
+
+    const calendarNavigation = () => {
+        navigate('/calendar');
+    }
+
 
     return(
         <div className="nav-container">
@@ -51,11 +63,11 @@ export default function NavbarComponent() {
 
 
             <div className="box">
-                <FontAwesomeIcon className='box-icon' icon={faTable} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
+                <FontAwesomeIcon className='box-icon' onClick={homeNavigation} icon={faTable} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
                 
             </div>
             <div className="box">
-                <FontAwesomeIcon className='box-icon' icon={faCalendarDays} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
+                <FontAwesomeIcon className='box-icon' onClick={calendarNavigation} icon={faCalendarDays} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
             </div>
             <div className="box">
                 <FontAwesomeIcon className='box-icon' icon={faUserGroup} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
