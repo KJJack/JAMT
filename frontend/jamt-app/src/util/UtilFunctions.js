@@ -21,3 +21,8 @@ export const formatDate = (dateString) => {
     
     return `${month}-${day}-${year}`;
 }
+
+export const formatDateForAPI = (date, time) => {
+    const dateTimeString = `${date}T${time}:00.000Z`;
+    return dateTimeString;
+}

@@ -4,7 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #042630;
+    //background-color: #042630;
+    background-color: #F2F3F4;
 }
 
 .login-container {
@@ -90,7 +91,8 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #041421;
+    //background-color: #041421;
+    background-color: #008080;
     margin-right: 30px;
     justify-content: flex-end;
     text-align: center;
@@ -99,8 +101,8 @@ body {
     flex-direction: column;
 }
 
-.nav-container h3{
-    color: #d0d6d6;
+.navbar-user-name {
+    color: #FFFFFF;
 }
 
 .user-profile {
@@ -130,6 +132,11 @@ body {
     height: 25px;
 }
 
+.link-icon {
+    //color: #d0d6d6;
+    color: #FFFFFF;
+}
+
 .box {
     height: 60px;
     width: 60px;
@@ -148,6 +155,10 @@ body {
     transform: scale(1.2);
 }
 
+.box-icon {
+    color: #FFFFFF;
+}
+
 
 /***********************************************
     Application Details
@@ -157,7 +168,8 @@ body {
     display: flex;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: #d0d6d6;
+    /* background-color: #d0d6d6; */
+    background-color: #FFFFFF;
     position: absolute;
     left: 300px;
     bottom: 500px;
@@ -198,7 +210,8 @@ body {
     width: 25px;
     height: 25px;
     top: calc(50% - 12px);
-    color: #86b9b0;
+    /* color: #86b9b0; */
+    color: #2E4053;
 }
 
 .app-detail-btn-icon:hover {
@@ -333,8 +346,10 @@ body {
 }
 
 .apptable-container th{
-    color: #d0d6d6;
-    background-color: #4c7273;
+    /* color: #d0d6d6; */
+    /* background-color: #4c7273; */
+    background-color: #2E4053;
+    color: #ffffff;
 }
 
 .apptable-container th:hover{
@@ -342,7 +357,13 @@ body {
 }
 
 .apptable-container .table-row:nth-child(even) td{
-    background-color: #86b9b0;
+    /* background-color: #86b9b0; */
+    background-color: rgb(110, 227, 207);
+}
+
+.apptable-container .table-row:nth-child(odd) td{
+    /* background-color: #86b9b0; */
+    background-color: #F2F3F4;
 }
 
 .apptable-container .table-row:hover td{

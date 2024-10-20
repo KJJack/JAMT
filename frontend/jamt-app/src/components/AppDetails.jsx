@@ -1,6 +1,7 @@
 import { useState, useContext } from 'react';
 import { UserContext } from '../util/UserContext';
-import { deleteUserApplication, getUserApplications } from '../api/api';
+import { deleteUserApplication, getUserApplications, updateUserApplication } from '../api/api';
+import { formatDateForAPI } from '../util/UtilFunctions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
@@ -10,6 +11,9 @@ import Prompt from './Prompt';
 import Modal from './Modal';
 import ApplicationInformation from './ApplicationInformation';
 import EditApp from './EditApp';
+import PromptModal from './PromptModal';
+import DeleteApp from './DeleteApp';
+import ContactApp from './ContactApp';
 
 
 export default function AppDetails({ application }) {
@@ -17,37 +21,13 @@ export default function AppDetails({ application }) {
     const [details, setDetails] = useState();
     const [modalVisible, setModalVisible] = useState(false);
     const [promptVisible, setPromptVisible] = useState(false);
+    const [promptModalVisible, setPromptModalVisible] = useState(false);
     const [isEditMode, setIsEditMode] = useState(false);
+    const [isDelete, setIsDelete] = useState(false);
+    const [isContact, setIsContact] = useState(false);
+    const [contactedInterviewDate, setContactedInterviewDate] = useState('');
+    const [contactedInterviewTime, setContactedInterviewTime] = useState('');
     const { user, setApplications } = useContext(UserContext);
-
-    const handleDelete = () => {
-        setPromptVisible(true);
-    }
-
-    const handleConfirmCancel = () => {
-        console.log('Deletion cancelled');
-        setPromptVisible(false);
-    }
-
-    
-    const handleConfirmDelete = async () => {
-        console.log('Deleting: ', application);
-        
-        try {
-            const userId = user.id || user._id;
-            const applicationId = application.id || application._id;
-            
-            const response = await deleteUserApplication(userId, applicationId);
-            const updatedApplications = await getUserApplications(userId);
-            setApplications(updatedApplications);
-            setPromptVisible(false);
-            console.log(response);
-            //window.location.reload();
-            
-        } catch(error) {
-            console.log("Error deleting application: ", error);
-        }
-    }
     
     
     const handleViewClick = () => {
@@ -64,6 +44,65 @@ export default function AppDetails({ application }) {
         setModalVisible(prevState => !prevState);
         setIsEditMode(false);
     }
+
+    const togglePromptModalVisible = () => {
+        setPromptModalVisible(prevState => !prevState);
+    }
+
+    const handleDeleteClick = () => {
+        setIsDelete(true);
+        setIsContact(false);
+        setPromptModalVisible(true);
+    }
+
+    const handleContactClick = () => {
+        setIsContact(true);
+        setIsDelete(false);
+        setPromptModalVisible(true);
+    }
+
+    const promptOnConfirm = async () => {
+        if (isDelete) {
+            console.log('Confirmed Delete');
+            try {
+                const userId = user.id || user._id;
+                const applicationId = application.id || application._id;
+
+                const response = await deleteUserApplication(userId, applicationId);
+                const updatedApplications = await getUserApplications(userId);
+                setApplications(updatedApplications);
+                console.log(response);
+                togglePromptModalVisible(false);
+                setIsDelete(false);
+            } catch (error) {
+                console.log(`Error deleting application `, error);
+                togglePromptModalVisible(false);
+            }
+        }
+        else if (isContact) {
+            try {
+                const userId = user.id || user._id;
+                const applicationId = application.id || application._id;
+                const formattedDate = formatDateForAPI(contactedInterviewDate, contactedInterviewTime);
+
+                const updatedApplication = {...application, contacted: true, interviewDate: formattedDate};
+                const response = await updateUserApplication(userId, applicationId, updatedApplication);
+                const updatedApplications = await getUserApplications(userId);
+                setApplications(updatedApplications);
+                console.log(response);
+                togglePromptModalVisible(false);
+                setIsContact(false);
+            } catch(error) {
+                console.log('Error updating contact and interview date', error);
+                togglePromptModalVisible(false);
+                setIsContact(false);
+            }
+        }
+    }
+
+    const promptOnCancel = () => {
+        togglePromptModalVisible(false);
+    } 
     
     return(
         <div className='application-details-container'>
@@ -73,7 +112,7 @@ export default function AppDetails({ application }) {
             <span>Applied Date: {application.addedAt}</span>
             <span>Contacted: {application.contacted ? 'Yes' : 'No'}</span>
             <span>Contacted Date: {application.contactedAt}</span>
-            <span>Reqs: {application.prereqs}</span>
+            <span>Reqs: {application.prereqs.join(', ')} </span>
 
             <div className='app-detail-btn-container'>
                 <div className='app-detail-btn' id='app-detail-btn-view' onClick={handleViewClick}>
@@ -83,22 +122,28 @@ export default function AppDetails({ application }) {
                     <FontAwesomeIcon className='app-detail-btn-icon' id='pen' icon={faPenToSquare} onClick={handleEdit} />
                 </div>
                 <div className='app-detail-btn' id='app-detail-btn-check'>
-                    <FontAwesomeIcon className='app-detail-btn-icon' id='check' icon={faCheck} />
+                    <FontAwesomeIcon className='app-detail-btn-icon' id='check' icon={faCheck} onClick={handleContactClick}/>
                 </div>
-                <div className='app-detail-btn' id='app-detail-btn-delete' onClick={handleDelete}>
+                <div className='app-detail-btn' id='app-detail-btn-delete' onClick={handleDeleteClick}>
                     <FontAwesomeIcon className='app-detail-btn-icon' id='trash' icon={faTrash} />
                 </div>
             </div>
 
-            {promptVisible && (
-                    <Prompt
-                        message="Are you sure you want to delete?"
-                        onConfirm={handleConfirmDelete}
-                        onCancel={handleConfirmCancel}
-                    />
-                )
-            }
 
+            <PromptModal isPromptVisible={promptModalVisible} promptModalToggle={togglePromptModalVisible} onConfirm={promptOnConfirm} onCancel={promptOnCancel}>
+                {
+                    isDelete ? (
+                        <DeleteApp application={application}/>
+                    ) : (
+                        <ContactApp application={application} 
+                            contactedInterviewDate={contactedInterviewDate} 
+                            setContactedInterviewDate={setContactedInterviewDate}
+                            contactedInterviewTime={contactedInterviewTime}
+                            setContactedInterviewTime={setContactedInterviewTime}
+                        />
+                    )
+                }
+            </PromptModal>
 
             <Modal visible={modalVisible} toggleModalVisible={toggleModalVisible}>
                 {

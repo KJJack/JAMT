@@ -3065,3 +3065,361 @@ Authorization Error: jwt expired
     at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
 2024-07-29T22:16:57.386Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
 2024-07-29T22:16:57.418Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:39:59.840Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:39:59.889Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:39:59.917Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:39:59.960Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:41:14.930Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:41:14.952Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:41:15.063Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:41:15.089Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:46:06.801Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:46:06.823Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:46:06.868Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:46:06.900Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:53:26.325Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:53:26.351Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-29T22:53:26.417Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-29T22:53:26.635Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T01:49:58.860Z Connection to database established
+2024-07-30T01:50:13.667Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-30T01:50:13.716Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T01:52:17.859Z Connection to database established
+2024-07-30T01:52:33.594Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-30T01:52:33.639Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T02:12:24.240Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-30T02:12:24.266Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:26:49.123Z Connection to database established
+2024-07-30T18:37:52.089Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-30T18:37:52.134Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:40:27.487Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T18:40:27.517Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:40:27.559Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T18:40:27.586Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:45:16.587Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T18:45:16.610Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:45:16.655Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T18:45:16.691Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:59:00.812Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-30T18:59:00.997Z [200] User:669ecee6651531e73290aac4  deleted Application: 669ed06e651531e73290aadf
+2024-07-30T18:59:01.012Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:59:09.301Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T18:59:09.321Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T18:59:09.368Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T18:59:09.405Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T19:18:06.568Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T19:18:06.589Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T19:18:06.638Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T19:18:06.676Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T19:26:05.164Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T19:26:05.189Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T19:26:05.235Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T19:26:05.263Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T20:34:29.015Z Connection to database established
+2024-07-30T20:34:35.143Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T20:34:35.192Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-30T20:34:35.219Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T20:34:35.254Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-30T20:34:36.667Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T20:34:36.696Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-30T20:34:36.737Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T20:34:36.751Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-07-30T20:34:46.028Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-30T20:34:46.067Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T20:55:20.553Z Connection to database established
+2024-07-30T21:02:22.493Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-30T21:02:22.544Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:02:28.857Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-30T21:02:28.964Z [ERROR] Code:404 OP:true Application not found 
+Error: Application not found
+    at deleteApplication (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/application.controller.js:147:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-30T21:02:29.042Z [200] User:669ecee6651531e73290aac4  deleted Application: 669ecee6651531e73290aac4
+2024-07-30T21:02:49.104Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:02:49.123Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:02:49.176Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:02:49.234Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:02:54.289Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-30T21:02:54.375Z [ERROR] Code:404 OP:true Application not found 
+Error: Application not found
+    at deleteApplication (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/application.controller.js:147:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-30T21:02:54.438Z [200] User:669ecee6651531e73290aac4  deleted Application: 669ecee6651531e73290aac4
+2024-07-30T21:06:31.563Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:06:31.609Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:06:31.667Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:06:31.691Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:06:35.659Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-30T21:06:35.826Z [200] User:669ecee6651531e73290aac4  deleted Application: 66a59e03aaa16c96c84cc5dd
+2024-07-30T21:06:35.840Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:08:35.675Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:08:35.706Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:08:35.744Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:08:35.781Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:08:40.199Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: deleteApplication
+2024-07-30T21:08:40.361Z [200] User:669ecee6651531e73290aac4  deleted Application: 669f0fdd6534d64cd398bc85
+2024-07-30T21:08:40.370Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:08:42.476Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:08:42.507Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:08:42.547Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:08:42.591Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:14:17.271Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:14:17.300Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:14:17.339Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:14:17.373Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:22:54.169Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:22:54.202Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:22:54.234Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:22:54.276Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:28:17.866Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:28:17.896Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:28:17.939Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:28:17.962Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:33:43.446Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:33:43.477Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:33:43.517Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:33:43.557Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:43:27.792Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:43:27.828Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:43:27.863Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:43:27.897Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:45:34.358Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:45:34.401Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:45:34.422Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:45:34.462Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:45:55.924Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-30T21:45:55.930Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:45:55.996Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Valve","companyUrl":"https://valvesoftware.com","position":"Game Developer","description":"","location":"Seattle, Wa","appSource":"Other","custSource":"levels.fyi","salary":200000,"hourly":0,"confidence":1,"prereqs":["C++","C#"],"contacted":false,"_id":"669f103b6534d64cd398bcb4","addedAt":"2024-07-23T02:06:51.996Z","createdAt":"2024-07-23T02:06:51.999Z","updatedAt":"2024-07-23T02:06:51.999Z"} 
+to:{"company":"Valve","companyUrl":"https://valvesoftware.com","position":"Game Developer","description":"","location":"Seattle, Wa","appSource":"Other","custSource":"levels.fyi","salary":200000,"hourly":0,"confidence":1,"prereqs":["C++","C#"],"contacted":true,"_id":"669f103b6534d64cd398bcb4","addedAt":"2024-07-23T02:06:51.996Z","createdAt":"2024-07-23T02:06:51.999Z","updatedAt":"2024-07-23T02:06:51.999Z","interviewDate":"2024-08-10T11:45:00.000Z"}
+2024-07-30T21:48:04.674Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:48:04.699Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:48:04.738Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:48:04.768Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:48:10.090Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:48:10.120Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:48:10.176Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:48:10.190Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:48:47.893Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-30T21:48:47.898Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:48:47.953Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Texas Instruments","companyUrl":"https://ti.com","position":"Embedded Systems Engineer","description":"","location":"Houston, Tx","appSource":"Company","custSource":"","salary":125000,"hourly":0,"confidence":4,"prereqs":["Assembly,C,C++,Python"],"contacted":false,"_id":"669f38d7818fe01b1c96d108","addedAt":"2024-07-23T05:00:07.611Z","createdAt":"2024-07-23T05:00:07.632Z","updatedAt":"2024-07-28T01:25:58.748Z"} 
+to:{"company":"Texas Instruments","companyUrl":"https://ti.com","position":"Embedded Systems Engineer","description":"","location":"Houston, Tx","appSource":"Company","custSource":"","salary":125000,"hourly":0,"confidence":4,"prereqs":["Assembly,C,C++,Python"],"contacted":true,"_id":"669f38d7818fe01b1c96d108","addedAt":"2024-07-23T05:00:07.611Z","createdAt":"2024-07-23T05:00:07.632Z","updatedAt":"2024-07-28T01:25:58.748Z","interviewDate":"2024-08-07T14:30:00.000Z"}
+2024-07-30T21:50:41.313Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:50:41.331Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:50:41.381Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:50:41.401Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:51:06.800Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-30T21:51:06.804Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:51:06.868Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","description":"","location":"remote","appSource":"Other","custSource":"levels.fyi","salary":85000,"hourly":0,"confidence":5,"prereqs":["React","CSS","HTML","javascript"],"contacted":false,"_id":"66a12fee24a8e26329b41c07","addedAt":"2024-07-24T16:46:38.129Z","createdAt":"2024-07-24T16:46:38.148Z","updatedAt":"2024-07-29T21:17:34.972Z"} 
+to:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","description":"","location":"remote","appSource":"Other","custSource":"levels.fyi","salary":85000,"hourly":0,"confidence":5,"prereqs":["React","CSS","HTML","javascript"],"contacted":true,"_id":"66a12fee24a8e26329b41c07","addedAt":"2024-07-24T16:46:38.129Z","createdAt":"2024-07-24T16:46:38.148Z","updatedAt":"2024-07-29T21:17:34.972Z","interviewDate":"2024-08-05T16:50:00.000Z"}
+2024-07-30T21:56:41.756Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:56:41.793Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:56:41.824Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:56:41.864Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:56:45.227Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:56:45.272Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:56:45.294Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-30T21:56:45.345Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-30T21:57:10.697Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-30T21:57:10.764Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"CompanyA","companyUrl":"https://google.com","position":"Data Analyst","description":"","location":"McAllen, Tx","appSource":"Other","custSource":"Youtube","salary":0,"hourly":35,"confidence":1,"prereqs":["Python"],"contacted":false,"_id":"66a6f4f9ac737bfaccc80d1a","addedAt":"2024-07-29T01:48:41.153Z","createdAt":"2024-07-29T01:48:41.177Z","updatedAt":"2024-07-29T01:49:07.436Z"} 
+to:{"company":"CompanyA","companyUrl":"https://google.com","position":"Data Analyst","description":"","location":"McAllen, Tx","appSource":"Other","custSource":"Youtube","salary":0,"hourly":35,"confidence":1,"prereqs":["Python"],"contacted":true,"_id":"66a6f4f9ac737bfaccc80d1a","addedAt":"2024-07-29T01:48:41.153Z","createdAt":"2024-07-29T01:48:41.177Z","updatedAt":"2024-07-29T01:49:07.436Z","interviewDate":"2024-08-20T09:10:00.000Z"}
+2024-07-30T21:57:10.864Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-31T02:04:08.125Z Connection to database established
+2024-07-31T02:04:23.166Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-31T02:04:23.215Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-31T22:42:10.551Z Connection to database established
+2024-07-31T22:42:35.317Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-07-31T22:42:35.371Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-31T22:43:05.440Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-07-31T22:43:05.516Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"yon","companyUrl":"https://google.com","position":"Full Stack Developer","description":"","location":"remote","appSource":"Other","custSource":"levels.fyi","salary":86000,"hourly":0,"confidence":4,"prereqs":["React","Node.js","Express","HTML","CSS","Javascript","Typescript"],"contacted":false,"_id":"66a6a9357db1891b1ba1b4bb","addedAt":"2024-07-28T20:25:25.640Z","createdAt":"2024-07-28T20:25:25.646Z","updatedAt":"2024-07-28T20:25:25.646Z"} 
+to:{"company":"yon","companyUrl":"https://google.com","position":"Full Stack Developer","description":"","location":"remote","appSource":"Other","custSource":"levels.fyi","salary":86000,"hourly":0,"confidence":4,"prereqs":["React","Node.js","Express","HTML","CSS","Javascript","Typescript"],"contacted":true,"_id":"66a6a9357db1891b1ba1b4bb","addedAt":"2024-07-28T20:25:25.640Z","createdAt":"2024-07-28T20:25:25.646Z","updatedAt":"2024-07-28T20:25:25.646Z","interviewDate":"2024-09-03T09:45:00.000Z"}
+2024-07-31T22:43:05.646Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-31T23:09:08.992Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-31T23:09:09.042Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-07-31T23:09:09.071Z [200] GET Request for 669ecee6651531e73290aac4
+2024-07-31T23:09:09.123Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T02:10:23.767Z Connection to database established
+2024-08-01T02:10:40.485Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-08-01T02:10:40.536Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T02:26:44.671Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: createApplication
+2024-08-01T02:26:44.872Z [201] user:669ecee6651531e73290aac4 added new Application:{"company":"abCompany","companyUrl":"https://google.com","description":"","appSource":"Indeed","custSource":"","salary":"60000","hourly":0,"position":"Backend Developer I","location":"remote","confidence":4,"prereqs":["Spring Boot","Java"]}
+2024-08-01T02:26:44.888Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T02:31:52.994Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-01T02:31:53.030Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T02:31:53.095Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-01T02:31:53.121Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T20:32:05.860Z [ERROR]  OP:false MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ 
+dbError: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/server.js:29:19
+2024-08-01T20:32:13.483Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-01T20:32:15.958Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-01T20:32:17.814Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-01T20:33:23.096Z [ERROR]  OP:false MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ 
+dbError: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/server.js:29:19
+2024-08-01T20:33:32.121Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-01T20:36:43.609Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-01T20:36:43.705Z [ERROR]  OP:false MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ 
+dbError: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/server.js:29:19
+2024-08-01T20:36:48.451Z [ERROR] Code:500 OP:true Operation `users.findOne()` buffering timed out after 10000ms 
+Error: Operation `users.findOne()` buffering timed out after 10000ms
+    at userLogin (file:///C:/Users/kevin/Desktop/JAMT/backend/src/controllers/authenticate.controller.js:53:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-01T20:40:24.214Z Connection to database established
+2024-08-01T20:40:36.199Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-08-01T20:40:36.247Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T21:19:59.598Z Connection to database established
+2024-08-01T21:20:24.920Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-01T21:20:25.018Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T21:20:25.031Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-01T21:20:25.114Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-01T21:20:36.944Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-08-01T21:20:36.981Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:01:39.187Z Connection to database established
+2024-08-02T01:01:44.692Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:01:44.782Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:01:44.803Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-08-02T01:01:44.853Z [ERROR] Code:401 OP:true jwt expired 
+Authorization Error: jwt expired
+    at authenticateUser (file:///C:/Users/kevin/Desktop/JAMT/backend/src/middleware/authenticate.mid.js:30:10)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at file:///C:/Users/kevin/Desktop/JAMT/backend/src/utils/logcontroller.util.js:4:5
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\kevin\Desktop\JAMT\backend\node_modules\express\lib\router\index.js:365:14)
+2024-08-02T01:02:02.536Z [200] User: 669ecee6651531e73290aac4 has logged in and received their auth Token
+2024-08-02T01:02:02.569Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:12:32.702Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:12:32.735Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:12:32.778Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:12:32.820Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:12:52.096Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:12:52.174Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","description":"","location":"remote","appSource":"Other","custSource":"levels.fyi","salary":85000,"hourly":0,"confidence":5,"prereqs":["React","CSS","HTML","javascript"],"contacted":true,"_id":"66a12fee24a8e26329b41c07","addedAt":"2024-07-24T16:46:38.129Z","createdAt":"2024-07-24T16:46:38.148Z","updatedAt":"2024-07-30T21:51:06.875Z","contactedAt":"2024-07-30T21:51:06.876Z","interviewDate":"2024-08-05T16:50:00.000Z"} 
+to:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","location":"remote","appSource":"Company","custSource":"","prereqs":["React","CSS","HTML","javascript"]}
+2024-08-02T01:12:52.381Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:13:08.868Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:13:09.043Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","description":"","location":"remote","appSource":"Company","custSource":"","salary":85000,"hourly":0,"confidence":5,"prereqs":["React","CSS","HTML","javascript"],"contacted":true,"_id":"66a12fee24a8e26329b41c07","addedAt":"2024-07-24T16:46:38.129Z","createdAt":"2024-07-24T16:46:38.148Z","updatedAt":"2024-08-02T01:12:52.203Z","contactedAt":"2024-07-30T21:51:06.876Z","interviewDate":"2024-08-05T16:50:00.000Z"} 
+to:{"company":"Reddit","companyUrl":"https://reddit.com","position":"Frontend Developer","location":"remote","appSource":"Company","custSource":"","prereqs":["React","CSS","HTML","javascript"]}
+2024-08-02T01:13:09.155Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:14:55.692Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:14:55.765Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","description":"","location":"Austin, Tx","appSource":"Linkedin","custSource":"","salary":0,"hourly":55,"confidence":5,"prereqs":["Python, R"],"contacted":false,"_id":"669f0a31c76a7ede2b75cebf","addedAt":"2024-07-23T01:41:05.729Z","createdAt":"2024-07-23T01:41:05.734Z","updatedAt":"2024-07-29T21:25:50.428Z"} 
+to:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","location":"Austin, Tx","appSource":"Indeed","custSource":"","prereqs":["Python, R"]}
+2024-08-02T01:14:55.872Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:19:53.064Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:19:53.094Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:19:53.145Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:19:53.185Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:21:22.784Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:21:22.866Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","description":"","location":"Austin, Tx","appSource":"Indeed","custSource":"","salary":0,"hourly":55,"confidence":5,"prereqs":["Python, R"],"contacted":false,"_id":"669f0a31c76a7ede2b75cebf","addedAt":"2024-07-23T01:41:05.729Z","createdAt":"2024-07-23T01:41:05.734Z","updatedAt":"2024-08-02T01:14:55.772Z"} 
+to:{"company":"Facebook","companyUrl":"https://facebook.com","position":"Data Analyst I","location":"Austin, Tx","appSource":"Company","custSource":"","prereqs":["Python","R"]}
+2024-08-02T01:21:22.973Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:22:29.464Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:22:29.535Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Valve","companyUrl":"https://valvesoftware.com","position":"Game Developer","description":"","location":"Seattle, Wa","appSource":"Other","custSource":"levels.fyi","salary":200000,"hourly":0,"confidence":1,"prereqs":["C++","C#"],"contacted":true,"_id":"669f103b6534d64cd398bcb4","addedAt":"2024-07-23T02:06:51.996Z","createdAt":"2024-07-23T02:06:51.999Z","updatedAt":"2024-07-30T21:45:56.006Z","contactedAt":"2024-07-30T21:45:56.007Z","interviewDate":"2024-08-10T11:45:00.000Z"} 
+to:{"company":"Valve","companyUrl":"https://valvesoftware.com","position":"Game Developer","location":"Seattle, Wa","appSource":"Other","custSource":"levels.fyi","prereqs":["C++","C#","GLSL"]}
+2024-08-02T01:22:29.627Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:22:46.478Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:22:46.546Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Valve","companyUrl":"https://valvesoftware.com","position":"Game Developer","description":"","location":"Seattle, Wa","appSource":"Other","custSource":"levels.fyi","salary":200000,"hourly":0,"confidence":1,"prereqs":["C++","C#","GLSL"],"contacted":true,"_id":"669f103b6534d64cd398bcb4","addedAt":"2024-07-23T02:06:51.996Z","createdAt":"2024-07-23T02:06:51.999Z","updatedAt":"2024-08-02T01:22:29.542Z","contactedAt":"2024-07-30T21:45:56.007Z","interviewDate":"2024-08-10T11:45:00.000Z"} 
+to:{"company":"Valve","companyUrl":"https://valvesoftware.com","position":"Game Developer","location":"Seattle, Wa","appSource":"Other","custSource":"levels.fyi","prereqs":["C++","C#","GLSL"]}
+2024-08-02T01:22:46.630Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:24:00.656Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:24:00.685Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:24:00.727Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:24:00.765Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:24:57.564Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: updateApplication
+2024-08-02T01:24:57.635Z [200] user:669ecee6651531e73290aac4 updated 
+Application:{"company":"Texas Instruments","companyUrl":"https://ti.com","position":"Embedded Systems Engineer","description":"","location":"Houston, Tx","appSource":"Company","custSource":"","salary":125000,"hourly":0,"confidence":4,"prereqs":["Assembly,C,C++,Python"],"contacted":true,"_id":"669f38d7818fe01b1c96d108","addedAt":"2024-07-23T05:00:07.611Z","createdAt":"2024-07-23T05:00:07.632Z","updatedAt":"2024-07-30T21:48:47.956Z","contactedAt":"2024-07-30T21:48:47.956Z","interviewDate":"2024-08-07T14:30:00.000Z"} 
+to:{"company":"Texas Instruments","companyUrl":"https://ti.com","position":"Embedded Systems Engineer","location":"Houston, Tx","appSource":"Company","custSource":"","prereqs":["Assembly","C","C++","Python"]}
+2024-08-02T01:24:57.751Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:31:21.659Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:31:21.685Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:31:21.747Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:31:21.771Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:31:38.667Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:31:38.761Z [200] GET Request for 669ecee6651531e73290aac4
+2024-08-02T01:31:38.790Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications
+2024-08-02T01:31:38.882Z User: 669ecee6651531e73290aac4 kevinjackson7590@gmail.com token verified for: getApplications

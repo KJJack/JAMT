@@ -11,7 +11,7 @@ export default function EditApp({ application }) {
     const [location, setLocation] = useState(application.location);
     const [appSource, setAppSource] = useState(application.appSource);
     const [custSource, setCustSource] = useState(application.custSource);
-    const [prereqs, setPrereqs] = useState(application.prereqs);
+    const [prereqs, setPrereqs] = useState(application.prereqs.join(', '));
 
 
     const tempApplicationClick = () => {
@@ -19,6 +19,7 @@ export default function EditApp({ application }) {
     }
 
     const handleSubmit = async () => {
+        const prereqsSplit = prereqs.split(',').map(reqs => reqs.trim());
         
         const userId = user.id || user._id;
         const applicationId = application.id || application._id;
@@ -29,7 +30,7 @@ export default function EditApp({ application }) {
             location,
             appSource,
             custSource,
-            prereqs
+            prereqs: prereqsSplit
         };
 
         try {

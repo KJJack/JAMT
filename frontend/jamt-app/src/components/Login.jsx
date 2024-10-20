@@ -26,25 +26,6 @@ function Login() {
             password: formData.password
         };
 
-        // try {
-        //     const response = await axios.post('http://localhost:4723/login', loginData);
-
-        //     if (response.status === 200) {
-        //         setMessage({ text: 'Login Successful', color: 'green'});
-        //         const token = response.data.token;
-        //         localStorage.setItem('token', token);
-        //         console.log('Login Successful: ', response.data);
-        //         setUser(response.data.user);
-        //         console.log('User set in context setUser: ', user);
-        //         console.log(token);
-        //     }
-        // } catch(error) {
-        //     setMessage({ text: error.response.data.message, color: 'red'});
-        //     console.log('Error: ', error);
-        // } finally {
-        //     setFormData({ username: '', password: ''});
-        // }
-
         try {
 
             const response = await postUserLogin(loginData);
@@ -73,8 +54,6 @@ function Login() {
             navigate('/home');
         }
     }, [user, navigate])
-
-
 
     return(
         <div className="login-container">

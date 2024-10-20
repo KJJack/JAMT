@@ -37,8 +37,8 @@ export default function NavbarComponent() {
         <div className="nav-container">
             {console.log('Navbar context for user: ', user)}
             {user ? 
-            (<h3>{user.firstname + ' ' + user.lastname}</h3>) 
-            : (<h3>John Doe</h3>)}
+            (<h3 className='navbar-user-name'>{user.firstname + ' ' + user.lastname}</h3>) 
+            : (<h3 className='navbar-user-name'>John Doe</h3>)}
 
             <div className="user-profile">
                 <img src={placeholder}></img>
@@ -46,34 +46,34 @@ export default function NavbarComponent() {
                 <div className='link-container'>
 
                     <div className='link'>
-                        <FontAwesomeIcon className='link-icon' icon={faGithub} style={{color: "#d0d6d6", height: "inherit", width: "inherit"}}/>
+                        <FontAwesomeIcon className='link-icon' icon={faGithub} style={{height: "inherit", width: "inherit"}}/>
                     </div>
 
                     <div className='link'>
-                        <FontAwesomeIcon className='link-icon' icon={faLinkedin} style={{color: "#d0d6d6", height: "inherit"}}/>
+                        <FontAwesomeIcon className='link-icon' icon={faLinkedin} style={{height: "inherit"}}/>
                     </div>
                     <div className='link'>
-                        <FontAwesomeIcon className='link-icon' icon={faStackOverflow} style={{color: "#d0d6d6", height: "inherit"}}/>
+                        <FontAwesomeIcon className='link-icon' icon={faStackOverflow} style={{height: "inherit"}}/>
                     </div>
                     <div className='link'>
-                        <FontAwesomeIcon className='link-icon' icon={faCode} style={{color: "#d0d6d6", height: "inherit", width: "inherit"}}/>
+                        <FontAwesomeIcon className='link-icon' icon={faCode} style={{height: "inherit", width: "inherit"}}/>
                     </div>
                 </div>
             </div>
 
 
             <div className="box">
-                <FontAwesomeIcon className='box-icon' onClick={homeNavigation} icon={faTable} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
+                <FontAwesomeIcon className='box-icon' onClick={homeNavigation} icon={faTable} style={{height: "40px", width: "40px"}}/>
                 
             </div>
             <div className="box">
-                <FontAwesomeIcon className='box-icon' onClick={calendarNavigation} icon={faCalendarDays} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
+                <FontAwesomeIcon className='box-icon' onClick={calendarNavigation} icon={faCalendarDays} style={{height: "40px", width: "40px"}}/>
             </div>
             <div className="box">
-                <FontAwesomeIcon className='box-icon' icon={faUserGroup} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
+                <FontAwesomeIcon className='box-icon' icon={faUserGroup} style={{height: "40px", width: "40px"}}/>
             </div>
             <div className="box">
-                <FontAwesomeIcon className='box-icon' icon={faGear} style={{color: "#86b9b0", height: "40px", width: "40px"}}/>
+                <FontAwesomeIcon className='box-icon' icon={faGear} style={{height: "40px", width: "40px"}}/>
             </div>
             
         </div>
